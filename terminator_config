@@ -1,0 +1,28 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, Logger, LaunchpadBugURLHandler
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      size = 1400, 960 
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_color = "#ffffff"
+    background_image = None
+    backspace_binding = control-h
+    copy_on_selection = True
+    cursor_blink = False
+    cursor_color = "#9c5896"
+    font = Monaco 11.5
+    foreground_color = "#000000"
+    palette = "#000000:#bc2d2c:#00aa00:#f1672d:#0000aa:#aa00aa:#00aaaa:#fffefe:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    scrollback_infinite = True
+    show_titlebar = False
+    use_system_font = False

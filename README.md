@@ -1,2 +1,3 @@
 # scripts_sha
-This repository contains all custom config files
+* This repository contains dot config files of tmux and terminator
+  customised according to my needs.

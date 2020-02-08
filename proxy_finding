@@ -1,0 +1,16 @@
+// Pre-configure all packages with debconf before they are installed.
+// If you don't like it, comment it out.
+//  PROJECT PROXY
+//  From Ubuntu 19.04 version proxy places to update is listed below
+//  PATH is just for reference, CAPITAL letter variables to be updated.
+//  PATH=/etc/apt/apt.conf.d
+    Acquire::http::proxy "http://DOMAIN.com:PORT/";
+    Acquire::https::proxy "https://DOMAIN.com:PORT/";
+    Acquire::ftp::proxy "ftp://DOMAIN.com:PORT/";
+    
+#	EXPORT PROJECT PROXY in ~/.bashrc
+	export no_proxy="127.0.0.1,localhost,DOMAIN.com"
+	export http_proxy=http://DOMAIN.com:PORT
+	export https_proxy=http://DOMAIN.com:PORT
+	export ftp_proxy=http://DOMAIN.com:PORT
+	export CSCOPE_EDITOR=vim
